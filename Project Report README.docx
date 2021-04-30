@@ -1,0 +1,173 @@
+# Hotel-Management-System
+Hotel Management System using JFrame, SQL Database and Netbeans
+Read Hotel Management System Project report for all instructions with Input and Output photos
+
+
+
+
+
+
+
+
+HOTEL MANAGEMENT SYSTEM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abstract:
+The main aim of “Hotel Management System” is to manage hotel rooms and services. This project makes the work easy for the staff of the Hotel to manage the Hotel by removing a bunch of paper work and managing all the hotel rooms and customers just from this application. We have used JFrame, Netbeans, Mysql Database to develop this project.
+
+Table of Content:
+About the Project:
+•	Signup page
+•	Admin Page  
+•	Login Page 
+•	Home page  
+•	Manage Room  
+•	Customer Check IN  
+•	Customer Check Out  
+•	Customer Details Bill  
+•	Logout  
+•	Exit
+Conclusion & Recommendations
+Future Scope
+References
+Appendices
+
+
+
+
+
+About the Project:
+This project has multiple pages containing differens aspects doing different functions I have mentioned all of them below with Input & Output.
+Signup page: 
+When the employee uses the application for the first time he/she needs to signup after signing up the admin has to change the status of the employee to TRUE so that the employee can login to the application. Without the admins permission the employee cannot login to the application
+
+
+ 
+
+
+If all the details are not filled it will show you a popup informing to fill all the information
+“Every field is required”
+
+ 
+
+
+
+Admin Page: 
+Once the admin has accepted the employees account and changed the status of account from false to true the employee can login to the application.
+
+ 
+
+
+Login Page:
+Now the Admin has accepted the employees account we can login to the application
+
+ 
+If all the details are not filled it will show you a popup informing to fill all the information
+“Every field is necessary”
+
+ 
+
+
+
+
+Home page: In The home page will have buttons to manage rooms, customer check out, customer check in, customer details bill. Each button will open a new window.
+
+ 
+
+
+
+
+
+Manage Room: 
+In the manage room we can add a room in the hotel to the database.
+
+Input: 
+currently there are four rooms (101, 102, 103, 100). Now I am going to add a new room “201”.
+  
+
+Output:   After clicking the add room button. Now the room “201” is visible.
+
+ 
+
+Customer Check IN: 
+Using Customer Check IN page we can check IN a customer into hotel by collecting their details like what kind of room they want to stay in  i.e a room with single bed or Double bed or Triple bed and to have AC or not  and we have to check IN the customer into the room of the customers interest by collecting their information like Name, Phone No, Gender, Nationality, Email, Address, Check IN Date ..etc.
+
+Input: Now Since I have collected all the details from the customer I can press “Allot Room” button to allote room to the customer or “clear” button to clear all the details.
+ 
+
+Output: After pressing the “Allote Room” button it allots the selected room to the customer and shows a popup saying “customer Check IN Successful”
+
+ 
+
+
+
+
+
+Customer Check Out: 
+Using Customer Check Out page we can check Out a customer by asking their room number and after checking out it askes if we want to print the bill or not. Now we can give the bill to customer so they can pay the amount. 
+
+
+Input: We enter the room number of the customer and press search to Check Out them
+
+ 
+
+
+Output: 
+After checking out it askes if we want to print the bill or not. If we click yes it will print the bill, if we click no it will do nothing.
+
+
+ 
+
+
+
+Now I have pressed the yes button in the popup so it prints the bill 
+
+
+ 
+
+
+Customer Details Bill: 
+Using the Customer Details Bill we can search and find the previous customer bills according to the date of their checkout.
+
+
+Input: We can search the bill according to the date and click on it to print the bill.
+
+ 
+
+
+Output: now I clicked on the bill so it prints the bill.
+
+ 
+
+
+Logout: 
+To logout of the application you can click the logout button. After clicking the logout button it will show you a popup for the confirmation to Logout or not. If you click “Yes” it will log you out and you will be redirected to login page. If you click ”No” you will not get logged out.
+ 
+
+
+
+Exit:
+If you want to close\exit the application you can click on the “X” at the top right corner of the application. After clicking the exit button it will show you a popup for the confirmation to close the application. If you click “Yes” it will close the application, If you click ”No” it will not close the application.
+
+ 
+
+
+Conclusion & Recommendations: 
+This project “Hotel Management System” has a benefit of managing the employees incase the had forgotten their password or if they had quit their job the admin can disable their account. We recommend you not to loose the Login Id and password for the application since it cannot be reset. The login id is “hms” and the password is “admin” .
+Future Scope: 
+This application has a very high future scope and it can be developed even further bu adding some more features depending on the hotel like room service etc.
+References: There are no references.
+Appendices: If you are using this project for the first time I suggest you to change the login details of the SQL Database or else you may face problems using the application.
